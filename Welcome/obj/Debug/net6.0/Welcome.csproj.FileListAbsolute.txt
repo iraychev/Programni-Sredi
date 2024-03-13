@@ -1,0 +1,15 @@
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\bin\Debug\net6.0\Welcome.exe
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\bin\Debug\net6.0\Welcome.deps.json
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\bin\Debug\net6.0\Welcome.runtimeconfig.json
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\bin\Debug\net6.0\Welcome.dll
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\bin\Debug\net6.0\Welcome.pdb
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.csproj.AssemblyReference.cache
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.GeneratedMSBuildEditorConfig.editorconfig
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.AssemblyInfoInputs.cache
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.AssemblyInfo.cs
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.csproj.CoreCompileInputs.cache
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.dll
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\refint\Welcome.dll
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.pdb
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\Welcome.genruntimeconfig.cache
+D:\Student\Desktop\43\Ps_43_Ivaylo\Welcome\obj\Debug\net6.0\ref\Welcome.dll
