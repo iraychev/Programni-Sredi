@@ -13,6 +13,6 @@ namespace DataLayer.Database
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public override int Id { get; set; }
+        public override int ID { get; set; }
     }
 }

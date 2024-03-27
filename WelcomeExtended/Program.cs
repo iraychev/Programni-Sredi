@@ -15,26 +15,12 @@ namespace WelcomeExtended
         {
 			try
 			{
-				//var user = new User
-				//{
-				//	Name = "Desislava",
-				//	Password = "password",
-				//	Role = Welcome.Others.UserRolesEnums.STUDENT
-				//};
-
-				//var viewModel = new UserViewModel(user);
-
-				//var view = new UserView(viewModel);
-
-				//view.Display();
-
-				//view.DisplayErr();
-
+			
 				UserData userData = new UserData();
 
 				User student = new User()
 				{
-					Name = "Desislava",
+					Name = "🍌Ceci Meci🍌",
 					Password = "password",
 					Role = Welcome.Others.UserRolesEnums.STUDENT
 				};
