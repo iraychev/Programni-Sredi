@@ -1,10 +1,8 @@
-﻿using System.Data;
-using Welcome.Model;
+﻿using Welcome.Model;
 using Welcome.View;
 using Welcome.ViewModel;
-using WelcomeExtended.Loggers;
-using WelcomeExtended.Others;
 using static WelcomeExtended.Others.Delegates;
+using static Welcome.Others.UserRolesEnums;
 
 namespace Welcome
 {
@@ -18,7 +16,7 @@ namespace Welcome
                 var user = new User
                 {
                     Names = "Ivo Raychev",
-                    Role = Others.userRolesEnum.STUDENT,
+                    Role = STUDENT,
                     Password = "parola"
                 };
                 

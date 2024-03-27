@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Student\\Desktop\\43\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj": {}
+    "C:\\Users\\Student\\Source\\Repos\\Ps_43_ivaylo\\Welcome\\Welcome.csproj": {}
   },
   "projects": {
-    "D:\\Student\\Desktop\\43\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj": {
+    "C:\\Users\\Student\\Source\\Repos\\Ps_43_ivaylo\\Welcome\\Welcome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Student\\Desktop\\43\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\Ps_43_ivaylo\\Welcome\\Welcome.csproj",
         "projectName": "Welcome",
-        "projectPath": "D:\\Student\\Desktop\\43\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj",
+        "projectPath": "C:\\Users\\Student\\Source\\Repos\\Ps_43_ivaylo\\Welcome\\Welcome.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "D:\\Student\\Desktop\\43\\Ps_43_Ivaylo\\Welcome\\obj\\",
+        "outputPath": "C:\\Users\\Student\\Source\\Repos\\Ps_43_ivaylo\\Welcome\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
