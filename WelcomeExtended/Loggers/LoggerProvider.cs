@@ -1,4 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace WelcomeExtended.Loggers
 {
@@ -6,7 +11,7 @@ namespace WelcomeExtended.Loggers
     {
         public ILogger CreateLogger(string categoryName)
         {
-            return new HashLogger(categoryName);
+            return new HasLogger(categoryName);
         }
 
         public void Dispose()

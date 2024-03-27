@@ -8,13 +8,14 @@ namespace Welcome
     {
         static void Main(string[] args)
         {
-            User user = new User();
-            user.Names = "Ivo Raychev";
-            user.Role = Others.userRolesEnum.STUDENT;
-            user.Password = "parola";
+            User user = new();
+            user.Name = "Desislava";
+            user.Password = "12345";
+            user.Role = Others.UserRolesEnums.STUDENT;
             UserViewModel userViewModel = new UserViewModel(user);
             UserView userView = new UserView(userViewModel);
             userView.Display();
+            Console.ReadKey();
         }
     }
 }
