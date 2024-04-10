@@ -20,7 +20,10 @@ namespace Welcome.View
         public void Display()
         {
 
-            Console.WriteLine($"Welcome! \nUser: {_viewModel.Name} \nRole: {_viewModel.Role}");
+            Console.WriteLine($"Welcome! \nUser: {_viewModel.Name} " +
+                $"\nEmail: {_viewModel.Email}" +
+                $"\nFaculty Number: {_viewModel.FacultyNumber}" +
+                $"\nRole: {_viewModel.Role}");
 
         }
 

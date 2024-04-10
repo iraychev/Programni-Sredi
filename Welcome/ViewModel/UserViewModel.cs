@@ -31,19 +31,6 @@ namespace Welcome.ViewModel
 
         }
 
-        public UserRolesEnums Role
-        {
-
-            get 
-            { 
-                return _user.Role; 
-            }
-            set 
-            { 
-                _user.Role = value; 
-            }
-
-        }
 
         public string Password
         {
@@ -58,5 +45,46 @@ namespace Welcome.ViewModel
             }
 
         }
+        public string Email
+        {
+
+            get
+            {
+                return _user.Email;
+            }
+            set
+            {
+                _user.Email = value;
+            }
+
+        }
+        public string FacultyNumber
+        {
+
+            get
+            {
+                return _user.FacultyNumber;
+            }
+            set
+            {
+                _user.FacultyNumber = value;
+            }
+
+        }
+
+        public UserRolesEnums Role
+        {
+
+            get
+            {
+                return _user.Role;
+            }
+            set
+            {
+                _user.Role = value;
+            }
+
+        }
     }
 }
+
