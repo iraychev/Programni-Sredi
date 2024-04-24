@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\WelcomeExtended\\WelcomeExtended.csproj": {}
+    "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\WelcomeExtended\\WelcomeExtended.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\WelcomeExtended\\WelcomeExtended.csproj": {
+    "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\WelcomeExtended\\WelcomeExtended.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\WelcomeExtended\\WelcomeExtended.csproj",
+        "projectUniqueName": "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\WelcomeExtended\\WelcomeExtended.csproj",
         "projectName": "WelcomeExtended",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\WelcomeExtended\\WelcomeExtended.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\WelcomeExtended\\obj\\",
+        "projectPath": "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\WelcomeExtended\\WelcomeExtended.csproj",
+        "packagesPath": "C:\\Users\\Ivo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\WelcomeExtended\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj": {
-                "projectPath": "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj"
+              "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\Welcome\\Welcome.csproj": {
+                "projectPath": "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\Welcome\\Welcome.csproj"
               }
             }
           }
@@ -38,6 +43,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -46,7 +56,11 @@
           "dependencies": {
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -65,21 +79,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj": {
+    "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\Welcome\\Welcome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj",
+        "projectUniqueName": "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\Welcome\\Welcome.csproj",
         "projectName": "Welcome",
-        "projectPath": "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\Welcome\\Welcome.csproj",
-        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\Source\\Repos\\Ps_43_Ivaylo\\Welcome\\obj\\",
+        "projectPath": "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\Welcome\\Welcome.csproj",
+        "packagesPath": "C:\\Users\\Ivo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ivo\\source\\repos\\iraychev\\Programni-Sredi\\Welcome\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ivo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,6 +105,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,6 +118,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -120,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Welcome.Model;
 
 namespace DataLayer.Database
 {
-    public class DatabaseUser : User
+    public class LogEntry
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public override int ID { get; set; }
+        public int ID { get; set; }
+        public DateTime Timestamp { get; set; }
+        public string Message { get; set; }
     }
 }

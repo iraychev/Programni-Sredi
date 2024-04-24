@@ -8,6 +8,7 @@ namespace WelcomeExtended.Loggers
     {
             private readonly ConcurrentDictionary<int, string> _logMessages;
             private readonly string _name;
+            private readonly string _filePath = "log.txt";
 
         public HashLogger(string name)
         {
@@ -15,15 +16,38 @@ namespace WelcomeExtended.Loggers
             _name = name;
         }
 
+        public void PrintAllMessages()
+        {
+            foreach (var logEntry in _logMessages)
+            {
+                Console.WriteLine($"EventId: {logEntry.Key}, Message: {logEntry.Value}");
+            }
+        }
+
+        public void PrintMessage(int eventId)
+        {
+            if (_logMessages.TryGetValue(eventId, out var message))
+            {
+                Console.WriteLine($"EventId: {eventId}, Message: {message}");
+            }
+            else
+            {
+                Console.WriteLine("No message found for the given EventId.");
+            }
+        }
+
+        public void DeleteMessage(int eventId)
+        {
+            _logMessages.TryRemove(eventId, out _);
+        }
+
         public IDisposable BeginScope<TState>(TState state)
         {
-            // This logger does not support scopes
             return null;
         }
 
         public bool IsEnabled(LogLevel logLevel)
         {
-            // This logger does not support scopes
             return true;
         }
 
@@ -54,7 +78,11 @@ namespace WelcomeExtended.Loggers
             Console.WriteLine($" {formatter(state, exception)}");
             Console.WriteLine("- LOGGER -");
             Console.ResetColor();
+
             _logMessages[eventId.Id] = message;
+
+            File.AppendAllText(_filePath, $"{message}\n");
+
         }
     }
 }

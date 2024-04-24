@@ -11,7 +11,7 @@ namespace WelcomeExtended.Loggers
     {
         public ILogger CreateLogger(string categoryName)
         {
-            return new HasLogger(categoryName);
+            return new HashLogger(categoryName);
         }
 
         public void Dispose()

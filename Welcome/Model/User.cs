@@ -8,10 +8,7 @@ namespace Welcome.Model
         public string Name { get; set; }
         public string Password {
             get;
-            set
-            {
-
-            }
+            set;
         }
         public string Email { get; set; }
         public string FacultyNumber { get; set; }
